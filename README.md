@@ -10,7 +10,7 @@ Once the dependencies have been installed, create the database by running the fo
 bin/console d:d:c
 After creating the database, apply the migrations with the following command:
 
-bin/console d:m:m
+bin/console doctrine:migrations:migrate
 
 About the Application
 This application has been created with the specific parameters outlined in the document. However, to improve the application, it is recommended to use better architecture, improve data control, and use token-based authentication.
